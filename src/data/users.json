@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "admin",
+        "roles": ["ADMIN", "USER"],
+        "permissions": []
+    },
+    {
+        "id": 2,
+        "name": "user",
+        "roles": ["USER"],
+        "permissions": []
+    },
+    {
+        "id": 3,
+        "name": "user2",
+        "roles": ["USER"],
+        "permissions": []
+    },
+    {
+        "id": 4,
+        "name": "user with no roles and DELETE_POST permission",
+        "roles": [],
+        "permissions": ["DELETE_POST"]
+    },
+    {
+        "id": 5,
+        "name": "user with USER role and DELETE_POST permission",
+        "roles": ["USER"],
+        "permissions": ["DELETE_POST"]
+    }
+]
